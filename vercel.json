@@ -4,7 +4,7 @@
         "src": "package.json",
         "use": "@vercel/next",
         "config": {
-          "packageManagerStrict": false
+          "package-manager-strict": false
         }
       }
     ]
