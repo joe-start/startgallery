@@ -1,11 +1,8 @@
 {
-    "builds": [
-      {
-        "src": "package.json",
-        "use": "@vercel/next",
-        "config": {
-          "package-manager-strict": false
-        }
+    "build": {
+      "env": {
+        "PNPM_VERSION": "9.1.2"
       }
-    ]
+    }
   }
+  
